@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="D:/ProyectoIntegrador/trunk/Implementacion/IPCore/MyProcessorIPLib/pcores/petri_axi_v2_01_b/devl/projnav/USER_LOGIC_TB_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="USER_LOGIC_TB" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="2" />
+   <wvobject fp_name="group112" type="group">
+      <obj_property name="label">Por Defecto</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/USER_LOGIC_TB/IP2Bus_Data" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">IP2Bus_Data[31:0]</obj_property>
+         <obj_property name="ObjectShortName">IP2Bus_Data[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/USER_LOGIC_TB/IP2Bus_RdAck" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">IP2Bus_RdAck</obj_property>
+         <obj_property name="ObjectShortName">IP2Bus_RdAck</obj_property>
+      </wvobject>
+      <wvobject fp_name="/USER_LOGIC_TB/IP2Bus_WrAck" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">IP2Bus_WrAck</obj_property>
+         <obj_property name="ObjectShortName">IP2Bus_WrAck</obj_property>
+      </wvobject>
+      <wvobject fp_name="/USER_LOGIC_TB/IP2Bus_Error" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">IP2Bus_Error</obj_property>
+         <obj_property name="ObjectShortName">IP2Bus_Error</obj_property>
+      </wvobject>
+      <wvobject fp_name="/USER_LOGIC_TB/Bus2IP_Clk" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">Bus2IP_Clk</obj_property>
+         <obj_property name="ObjectShortName">Bus2IP_Clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/USER_LOGIC_TB/Bus2IP_Resetn" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">Bus2IP_Resetn</obj_property>
+         <obj_property name="ObjectShortName">Bus2IP_Resetn</obj_property>
+      </wvobject>
+      <wvobject fp_name="/USER_LOGIC_TB/Bus2IP_Addr" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">Bus2IP_Addr[0:31]</obj_property>
+         <obj_property name="ObjectShortName">Bus2IP_Addr[0:31]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/USER_LOGIC_TB/Bus2IP_Data" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">Bus2IP_Data[31:0]</obj_property>
+         <obj_property name="ObjectShortName">Bus2IP_Data[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/USER_LOGIC_TB/Bus2IP_BE" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">Bus2IP_BE[3:0]</obj_property>
+         <obj_property name="ObjectShortName">Bus2IP_BE[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/USER_LOGIC_TB/Bus2IP_RdCE" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">Bus2IP_RdCE[11:0]</obj_property>
+         <obj_property name="ObjectShortName">Bus2IP_RdCE[11:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/USER_LOGIC_TB/Bus2IP_WrCE" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">Bus2IP_WrCE[11:0]</obj_property>
+         <obj_property name="ObjectShortName">Bus2IP_WrCE[11:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/USER_LOGIC_TB/m_marcado" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">m_marcado[31:0]</obj_property>
+         <obj_property name="ObjectShortName">m_marcado[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/USER_LOGIC_TB/m_incidencia" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">m_incidencia[31:0]</obj_property>
+         <obj_property name="ObjectShortName">m_incidencia[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/USER_LOGIC_TB/m_inhibicion" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">m_inhibicion[31:0]</obj_property>
+         <obj_property name="ObjectShortName">m_inhibicion[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/USER_LOGIC_TB/p_cotas" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">p_cotas[31:0]</obj_property>
+         <obj_property name="ObjectShortName">p_cotas[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/USER_LOGIC_TB/t_automatica" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">t_automatica[31:0]</obj_property>
+         <obj_property name="ObjectShortName">t_automatica[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/USER_LOGIC_TB/load_vector_EFT" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">load_vector_EFT[31:0]</obj_property>
+         <obj_property name="ObjectShortName">load_vector_EFT[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/USER_LOGIC_TB/load_vector_incrementos_tiempo" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">load_vector_incrementos_tiempo[31:0]</obj_property>
+         <obj_property name="ObjectShortName">load_vector_incrementos_tiempo[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/USER_LOGIC_TB/load_vector_LFT" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">load_vector_LFT[31:0]</obj_property>
+         <obj_property name="ObjectShortName">load_vector_LFT[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/USER_LOGIC_TB/new_disparo" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">new_disparo[31:0]</obj_property>
+         <obj_property name="ObjectShortName">new_disparo[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/USER_LOGIC_TB/sacar_disparo" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">sacar_disparo[31:0]</obj_property>
+         <obj_property name="ObjectShortName">sacar_disparo[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/USER_LOGIC_TB/error" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">error[31:0]</obj_property>
+         <obj_property name="ObjectShortName">error[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/USER_LOGIC_TB/leer_en_espera" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">leer_en_espera[31:0]</obj_property>
+         <obj_property name="ObjectShortName">leer_en_espera[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/USER_LOGIC_TB/leer_posibles" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">leer_posibles[31:0]</obj_property>
+         <obj_property name="ObjectShortName">leer_posibles[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/USER_LOGIC_TB/leer_ejecutados" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">leer_ejecutados[31:0]</obj_property>
+         <obj_property name="ObjectShortName">leer_ejecutados[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group113" type="group">
+      <obj_property name="label">Datos</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/USER_LOGIC_TB/uut/marcado" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">marcado[2:0,7:0]</obj_property>
+         <obj_property name="ObjectShortName">marcado[2:0,7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/USER_LOGIC_TB/uut/marcado_inicial" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">marcado_inicial[2:0,7:0]</obj_property>
+         <obj_property name="ObjectShortName">marcado_inicial[2:0,7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">matriz_incidencia[2:0,3:0,7:0]</obj_property>
+         <obj_property name="ObjectShortName">matriz_incidencia[2:0,3:0,7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_inhibicion" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">matriz_inhibicion[2:0,3:0]</obj_property>
+         <obj_property name="ObjectShortName">matriz_inhibicion[2:0,3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/USER_LOGIC_TB/uut/cotas_plazas" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">cotas_plazas[2:0,7:0]</obj_property>
+         <obj_property name="ObjectShortName">cotas_plazas[2:0,7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/USER_LOGIC_TB/uut/transiciones_automaticas" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">transiciones_automaticas[3:0]</obj_property>
+         <obj_property name="ObjectShortName">transiciones_automaticas[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/USER_LOGIC_TB/uut/vector_EFT" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">vector_EFT[3:0,63:0]</obj_property>
+         <obj_property name="ObjectShortName">vector_EFT[3:0,63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/USER_LOGIC_TB/uut/vector_incremento_de_tiempo" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">vector_incremento_de_tiempo[3:0,2:0]</obj_property>
+         <obj_property name="ObjectShortName">vector_incremento_de_tiempo[3:0,2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/USER_LOGIC_TB/uut/vector_LFT" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">vector_LFT[3:0,63:0]</obj_property>
+         <obj_property name="ObjectShortName">vector_LFT[3:0,63:0]</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

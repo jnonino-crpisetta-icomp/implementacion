@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item value="257" key="DIALOG_WIDTH"/>
+		<item value="141" key="DIALOG_Y_ORIGIN"/>
+		<item value="380" key="DIALOG_HEIGHT"/>
+		<item value="921" key="DIALOG_X_ORIGIN"/>
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item value="true" key="wrap"/>
+		<item value="false" key="isRegEx"/>
+		<item value="false" key="casesensitive"/>
+		<item value="false" key="incremental"/>
+		<item value="false" key="wholeword"/>
+		<item value="XPAR_MICROBLAZE_0_INTC_BASEADDR" key="selection"/>
+		<list key="findhistory">
+			<item value="XPAR_MICROBLAZE_0_INTC_BASEADDR"/>
+			<item value="CONTADOR"/>
+			<item value="cont_0"/>
+			<item value="cont_int"/>
+			<item value="cant_int"/>
+			<item value="cont"/>
+			<item value="habilitar"/>
+			<item value="Contador Interrupt"/>
+		</list>
+		<list key="replacehistory">
+			<item value="cont_cero"/>
+			<item value="cant_int"/>
+			<item value="limite"/>
+			<item value="cont_ctrl"/>
+			<item value="LEDs_8Bits"/>
+		</list>
+	</section>
+</section>

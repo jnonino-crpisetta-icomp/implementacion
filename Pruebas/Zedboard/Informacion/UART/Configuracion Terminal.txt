@@ -1,0 +1,4 @@
+Baud Rate 115200
+Bits 8
+STOP 1
+No parity

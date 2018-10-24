@@ -1,0 +1,1598 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="D:/ProyectoIntegrador/trunk/Implementacion/IPCore/MyProcessorIPLib/pcores/petri_axi_v2_01_b/devl/projnav/USER_LOGIC_TB_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="USER_LOGIC_TB" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="5" />
+   <wvobject fp_name="group112" type="group">
+      <obj_property name="label">Por Defecto</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/USER_LOGIC_TB/IP2Bus_Data" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">IP2Bus_Data[31:0]</obj_property>
+         <obj_property name="ObjectShortName">IP2Bus_Data[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/USER_LOGIC_TB/IP2Bus_RdAck" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">IP2Bus_RdAck</obj_property>
+         <obj_property name="ObjectShortName">IP2Bus_RdAck</obj_property>
+      </wvobject>
+      <wvobject fp_name="/USER_LOGIC_TB/IP2Bus_WrAck" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">IP2Bus_WrAck</obj_property>
+         <obj_property name="ObjectShortName">IP2Bus_WrAck</obj_property>
+      </wvobject>
+      <wvobject fp_name="/USER_LOGIC_TB/IP2Bus_Error" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">IP2Bus_Error</obj_property>
+         <obj_property name="ObjectShortName">IP2Bus_Error</obj_property>
+      </wvobject>
+      <wvobject fp_name="/USER_LOGIC_TB/Bus2IP_Clk" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">Bus2IP_Clk</obj_property>
+         <obj_property name="ObjectShortName">Bus2IP_Clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/USER_LOGIC_TB/Bus2IP_Resetn" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">Bus2IP_Resetn</obj_property>
+         <obj_property name="ObjectShortName">Bus2IP_Resetn</obj_property>
+      </wvobject>
+      <wvobject fp_name="/USER_LOGIC_TB/Bus2IP_Data" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">Bus2IP_Data[31:0]</obj_property>
+         <obj_property name="ObjectShortName">Bus2IP_Data[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/USER_LOGIC_TB/Bus2IP_BE" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">Bus2IP_BE[3:0]</obj_property>
+         <obj_property name="ObjectShortName">Bus2IP_BE[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/USER_LOGIC_TB/Bus2IP_RdCE" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">Bus2IP_RdCE[31:0]</obj_property>
+         <obj_property name="ObjectShortName">Bus2IP_RdCE[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/USER_LOGIC_TB/Bus2IP_WrCE" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">Bus2IP_WrCE[31:0]</obj_property>
+         <obj_property name="ObjectShortName">Bus2IP_WrCE[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/USER_LOGIC_TB/m_marcado" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">m_marcado[31:0]</obj_property>
+         <obj_property name="ObjectShortName">m_marcado[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/USER_LOGIC_TB/m_incidencia" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">m_incidencia[31:0]</obj_property>
+         <obj_property name="ObjectShortName">m_incidencia[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/USER_LOGIC_TB/m_inhibicion" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">m_inhibicion[31:0]</obj_property>
+         <obj_property name="ObjectShortName">m_inhibicion[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/USER_LOGIC_TB/p_cotas" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">p_cotas[31:0]</obj_property>
+         <obj_property name="ObjectShortName">p_cotas[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/USER_LOGIC_TB/t_automatica" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">t_automatica[31:0]</obj_property>
+         <obj_property name="ObjectShortName">t_automatica[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/USER_LOGIC_TB/load_vector_EFT" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">load_vector_EFT[31:0]</obj_property>
+         <obj_property name="ObjectShortName">load_vector_EFT[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/USER_LOGIC_TB/load_vector_incrementos_tiempo" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">load_vector_incrementos_tiempo[31:0]</obj_property>
+         <obj_property name="ObjectShortName">load_vector_incrementos_tiempo[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/USER_LOGIC_TB/load_vector_LFT" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">load_vector_LFT[31:0]</obj_property>
+         <obj_property name="ObjectShortName">load_vector_LFT[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/USER_LOGIC_TB/new_disparo" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">new_disparo[31:0]</obj_property>
+         <obj_property name="ObjectShortName">new_disparo[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/USER_LOGIC_TB/sacar_disparo" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">sacar_disparo[31:0]</obj_property>
+         <obj_property name="ObjectShortName">sacar_disparo[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/USER_LOGIC_TB/error" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">error[31:0]</obj_property>
+         <obj_property name="ObjectShortName">error[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/USER_LOGIC_TB/leer_en_espera" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">leer_en_espera[31:0]</obj_property>
+         <obj_property name="ObjectShortName">leer_en_espera[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/USER_LOGIC_TB/leer_posibles" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">leer_posibles[31:0]</obj_property>
+         <obj_property name="ObjectShortName">leer_posibles[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/USER_LOGIC_TB/leer_ejecutados" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">leer_ejecutados[31:0]</obj_property>
+         <obj_property name="ObjectShortName">leer_ejecutados[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group113" type="group">
+      <obj_property name="label">Datos</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/USER_LOGIC_TB/uut/marcado" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">marcado[15:0,7:0]</obj_property>
+         <obj_property name="ObjectShortName">marcado[15:0,7:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/USER_LOGIC_TB/uut/marcado_inicial" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">marcado_inicial[15:0,7:0]</obj_property>
+         <obj_property name="ObjectShortName">marcado_inicial[15:0,7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">matriz_incidencia[15:0,15:0,7:0]</obj_property>
+         <obj_property name="ObjectShortName">matriz_incidencia[15:0,15:0,7:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[15]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[15,15:0,7:0]</obj_property>
+            <obj_property name="ObjectShortName">matriz_incidencia[15,15:0,7:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[15,15]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[15,15,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[15,15,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[15,14]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[15,14,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[15,14,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[15,13]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[15,13,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[15,13,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[15,12]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[15,12,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[15,12,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[15,11]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[15,11,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[15,11,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[15,10]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[15,10,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[15,10,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[15,9]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[15,9,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[15,9,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[15,8]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[15,8,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[15,8,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[15,7]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[15,7,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[15,7,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[15,6]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[15,6,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[15,6,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[15,5]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[15,5,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[15,5,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[15,4]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[15,4,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[15,4,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[15,3]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[15,3,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[15,3,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[15,2]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[15,2,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[15,2,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[15,1]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[15,1,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[15,1,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[15,0]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[15,0,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[15,0,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[14]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[14,15:0,7:0]</obj_property>
+            <obj_property name="ObjectShortName">matriz_incidencia[14,15:0,7:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[14,15]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[14,15,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[14,15,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[14,14]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[14,14,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[14,14,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[14,13]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[14,13,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[14,13,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[14,12]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[14,12,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[14,12,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[14,11]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[14,11,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[14,11,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[14,10]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[14,10,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[14,10,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[14,9]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[14,9,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[14,9,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[14,8]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[14,8,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[14,8,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[14,7]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[14,7,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[14,7,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[14,6]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[14,6,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[14,6,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[14,5]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[14,5,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[14,5,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[14,4]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[14,4,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[14,4,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[14,3]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[14,3,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[14,3,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[14,2]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[14,2,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[14,2,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[14,1]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[14,1,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[14,1,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[14,0]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[14,0,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[14,0,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[13]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[13,15:0,7:0]</obj_property>
+            <obj_property name="ObjectShortName">matriz_incidencia[13,15:0,7:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[13,15]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[13,15,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[13,15,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[13,14]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[13,14,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[13,14,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[13,13]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[13,13,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[13,13,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[13,12]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[13,12,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[13,12,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[13,11]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[13,11,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[13,11,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[13,10]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[13,10,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[13,10,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[13,9]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[13,9,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[13,9,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[13,8]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[13,8,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[13,8,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[13,7]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[13,7,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[13,7,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[13,6]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[13,6,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[13,6,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[13,5]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[13,5,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[13,5,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[13,4]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[13,4,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[13,4,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[13,3]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[13,3,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[13,3,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[13,2]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[13,2,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[13,2,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[13,1]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[13,1,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[13,1,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[13,0]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[13,0,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[13,0,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[12]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[12,15:0,7:0]</obj_property>
+            <obj_property name="ObjectShortName">matriz_incidencia[12,15:0,7:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[12,15]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[12,15,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[12,15,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[12,14]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[12,14,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[12,14,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[12,13]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[12,13,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[12,13,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[12,12]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[12,12,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[12,12,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[12,11]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[12,11,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[12,11,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[12,10]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[12,10,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[12,10,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[12,9]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[12,9,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[12,9,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[12,8]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[12,8,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[12,8,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[12,7]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[12,7,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[12,7,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[12,6]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[12,6,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[12,6,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[12,5]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[12,5,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[12,5,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[12,4]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[12,4,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[12,4,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[12,3]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[12,3,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[12,3,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[12,2]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[12,2,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[12,2,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[12,1]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[12,1,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[12,1,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[12,0]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[12,0,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[12,0,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[11]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[11,15:0,7:0]</obj_property>
+            <obj_property name="ObjectShortName">matriz_incidencia[11,15:0,7:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[11,15]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[11,15,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[11,15,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[11,14]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[11,14,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[11,14,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[11,13]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[11,13,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[11,13,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[11,12]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[11,12,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[11,12,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[11,11]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[11,11,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[11,11,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[11,10]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[11,10,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[11,10,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[11,9]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[11,9,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[11,9,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[11,8]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[11,8,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[11,8,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[11,7]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[11,7,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[11,7,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[11,6]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[11,6,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[11,6,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[11,5]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[11,5,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[11,5,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[11,4]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[11,4,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[11,4,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[11,3]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[11,3,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[11,3,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[11,2]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[11,2,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[11,2,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[11,1]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[11,1,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[11,1,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[11,0]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[11,0,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[11,0,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[10]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[10,15:0,7:0]</obj_property>
+            <obj_property name="ObjectShortName">matriz_incidencia[10,15:0,7:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[10,15]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[10,15,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[10,15,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[10,14]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[10,14,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[10,14,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[10,13]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[10,13,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[10,13,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[10,12]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[10,12,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[10,12,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[10,11]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[10,11,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[10,11,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[10,10]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[10,10,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[10,10,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[10,9]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[10,9,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[10,9,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[10,8]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[10,8,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[10,8,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[10,7]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[10,7,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[10,7,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[10,6]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[10,6,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[10,6,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[10,5]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[10,5,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[10,5,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[10,4]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[10,4,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[10,4,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[10,3]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[10,3,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[10,3,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[10,2]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[10,2,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[10,2,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[10,1]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[10,1,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[10,1,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[10,0]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[10,0,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[10,0,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[9]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[9,15:0,7:0]</obj_property>
+            <obj_property name="ObjectShortName">matriz_incidencia[9,15:0,7:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[9,15]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[9,15,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[9,15,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[9,14]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[9,14,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[9,14,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[9,13]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[9,13,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[9,13,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[9,12]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[9,12,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[9,12,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[9,11]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[9,11,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[9,11,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[9,10]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[9,10,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[9,10,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[9,9]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[9,9,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[9,9,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[9,8]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[9,8,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[9,8,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[9,7]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[9,7,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[9,7,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[9,6]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[9,6,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[9,6,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[9,5]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[9,5,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[9,5,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[9,4]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[9,4,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[9,4,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[9,3]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[9,3,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[9,3,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[9,2]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[9,2,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[9,2,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[9,1]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[9,1,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[9,1,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[9,0]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[9,0,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[9,0,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[8]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[8,15:0,7:0]</obj_property>
+            <obj_property name="ObjectShortName">matriz_incidencia[8,15:0,7:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[8,15]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[8,15,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[8,15,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[8,14]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[8,14,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[8,14,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[8,13]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[8,13,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[8,13,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[8,12]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[8,12,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[8,12,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[8,11]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[8,11,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[8,11,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[8,10]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[8,10,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[8,10,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[8,9]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[8,9,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[8,9,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[8,8]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[8,8,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[8,8,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[8,7]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[8,7,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[8,7,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[8,6]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[8,6,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[8,6,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[8,5]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[8,5,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[8,5,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[8,4]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[8,4,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[8,4,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[8,3]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[8,3,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[8,3,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[8,2]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[8,2,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[8,2,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[8,1]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[8,1,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[8,1,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[8,0]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[8,0,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[8,0,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[7]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[7,15:0,7:0]</obj_property>
+            <obj_property name="ObjectShortName">matriz_incidencia[7,15:0,7:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[7,15]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[7,15,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[7,15,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[7,14]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[7,14,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[7,14,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[7,13]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[7,13,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[7,13,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[7,12]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[7,12,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[7,12,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[7,11]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[7,11,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[7,11,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[7,10]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[7,10,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[7,10,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[7,9]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[7,9,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[7,9,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[7,8]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[7,8,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[7,8,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[7,7]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[7,7,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[7,7,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[7,6]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[7,6,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[7,6,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[7,5]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[7,5,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[7,5,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[7,4]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[7,4,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[7,4,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[7,3]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[7,3,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[7,3,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[7,2]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[7,2,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[7,2,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[7,1]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[7,1,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[7,1,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[7,0]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[7,0,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[7,0,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[6]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[6,15:0,7:0]</obj_property>
+            <obj_property name="ObjectShortName">matriz_incidencia[6,15:0,7:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[6,15]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[6,15,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[6,15,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[6,14]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[6,14,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[6,14,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[6,13]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[6,13,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[6,13,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[6,12]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[6,12,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[6,12,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[6,11]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[6,11,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[6,11,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[6,10]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[6,10,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[6,10,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[6,9]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[6,9,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[6,9,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[6,8]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[6,8,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[6,8,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[6,7]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[6,7,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[6,7,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[6,6]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[6,6,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[6,6,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[6,5]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[6,5,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[6,5,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[6,4]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[6,4,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[6,4,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[6,3]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[6,3,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[6,3,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[6,2]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[6,2,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[6,2,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[6,1]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[6,1,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[6,1,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[6,0]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[6,0,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[6,0,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[5]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[5,15:0,7:0]</obj_property>
+            <obj_property name="ObjectShortName">matriz_incidencia[5,15:0,7:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[5,15]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[5,15,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[5,15,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[5,14]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[5,14,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[5,14,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[5,13]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[5,13,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[5,13,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[5,12]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[5,12,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[5,12,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[5,11]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[5,11,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[5,11,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[5,10]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[5,10,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[5,10,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[5,9]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[5,9,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[5,9,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[5,8]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[5,8,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[5,8,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[5,7]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[5,7,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[5,7,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[5,6]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[5,6,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[5,6,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[5,5]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[5,5,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[5,5,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[5,4]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[5,4,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[5,4,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[5,3]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[5,3,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[5,3,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[5,2]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[5,2,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[5,2,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[5,1]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[5,1,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[5,1,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[5,0]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[5,0,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[5,0,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[4]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[4,15:0,7:0]</obj_property>
+            <obj_property name="ObjectShortName">matriz_incidencia[4,15:0,7:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[4,15]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[4,15,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[4,15,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[4,14]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[4,14,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[4,14,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[4,13]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[4,13,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[4,13,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[4,12]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[4,12,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[4,12,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[4,11]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[4,11,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[4,11,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[4,10]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[4,10,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[4,10,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[4,9]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[4,9,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[4,9,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[4,8]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[4,8,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[4,8,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[4,7]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[4,7,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[4,7,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[4,6]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[4,6,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[4,6,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[4,5]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[4,5,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[4,5,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[4,4]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[4,4,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[4,4,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[4,3]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[4,3,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[4,3,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[4,2]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[4,2,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[4,2,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[4,1]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[4,1,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[4,1,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[4,0]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[4,0,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[4,0,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[3]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[3,15:0,7:0]</obj_property>
+            <obj_property name="ObjectShortName">matriz_incidencia[3,15:0,7:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[3,15]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[3,15,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[3,15,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[3,14]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[3,14,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[3,14,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[3,13]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[3,13,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[3,13,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[3,12]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[3,12,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[3,12,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[3,11]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[3,11,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[3,11,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[3,10]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[3,10,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[3,10,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[3,9]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[3,9,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[3,9,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[3,8]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[3,8,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[3,8,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[3,7]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[3,7,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[3,7,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[3,6]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[3,6,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[3,6,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[3,5]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[3,5,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[3,5,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[3,4]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[3,4,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[3,4,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[3,3]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[3,3,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[3,3,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[3,2]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[3,2,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[3,2,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[3,1]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[3,1,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[3,1,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[3,0]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[3,0,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[3,0,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[2]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[2,15:0,7:0]</obj_property>
+            <obj_property name="ObjectShortName">matriz_incidencia[2,15:0,7:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[2,15]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[2,15,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[2,15,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[2,14]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[2,14,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[2,14,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[2,13]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[2,13,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[2,13,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[2,12]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[2,12,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[2,12,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[2,11]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[2,11,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[2,11,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[2,10]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[2,10,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[2,10,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[2,9]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[2,9,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[2,9,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[2,8]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[2,8,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[2,8,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[2,7]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[2,7,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[2,7,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[2,6]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[2,6,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[2,6,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[2,5]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[2,5,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[2,5,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[2,4]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[2,4,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[2,4,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[2,3]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[2,3,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[2,3,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[2,2]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[2,2,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[2,2,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[2,1]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[2,1,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[2,1,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[2,0]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[2,0,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[2,0,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[1]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[1,15:0,7:0]</obj_property>
+            <obj_property name="ObjectShortName">matriz_incidencia[1,15:0,7:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[1,15]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[1,15,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[1,15,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[1,14]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[1,14,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[1,14,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[1,13]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[1,13,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[1,13,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[1,12]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[1,12,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[1,12,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[1,11]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[1,11,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[1,11,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[1,10]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[1,10,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[1,10,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[1,9]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[1,9,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[1,9,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[1,8]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[1,8,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[1,8,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[1,7]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[1,7,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[1,7,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[1,6]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[1,6,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[1,6,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[1,5]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[1,5,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[1,5,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[1,4]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[1,4,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[1,4,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[1,3]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[1,3,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[1,3,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[1,2]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[1,2,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[1,2,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[1,1]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[1,1,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[1,1,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[1,0]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[1,0,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[1,0,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[0]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[0,15:0,7:0]</obj_property>
+            <obj_property name="ObjectShortName">matriz_incidencia[0,15:0,7:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[0,15]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[0,15,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[0,15,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[0,14]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[0,14,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[0,14,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[0,13]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[0,13,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[0,13,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[0,12]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[0,12,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[0,12,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[0,11]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[0,11,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[0,11,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[0,10]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[0,10,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[0,10,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[0,9]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[0,9,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[0,9,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[0,8]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[0,8,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[0,8,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[0,7]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[0,7,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[0,7,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[0,6]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[0,6,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[0,6,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[0,5]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[0,5,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[0,5,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[0,4]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[0,4,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[0,4,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[0,3]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[0,3,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[0,3,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[0,2]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[0,2,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[0,2,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[0,1]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[0,1,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[0,1,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_incidencia[0,0]" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">[0,0,7:0]</obj_property>
+               <obj_property name="ObjectShortName">matriz_incidencia[0,0,7:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="/USER_LOGIC_TB/uut/matriz_inhibicion" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">matriz_inhibicion[15:0,15:0]</obj_property>
+         <obj_property name="ObjectShortName">matriz_inhibicion[15:0,15:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/USER_LOGIC_TB/uut/cotas_plazas" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">cotas_plazas[15:0,6:0]</obj_property>
+         <obj_property name="ObjectShortName">cotas_plazas[15:0,6:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/USER_LOGIC_TB/uut/transiciones_automaticas" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">transiciones_automaticas[15:0]</obj_property>
+         <obj_property name="ObjectShortName">transiciones_automaticas[15:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/USER_LOGIC_TB/uut/vector_EFT" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">vector_EFT[15:0,63:0]</obj_property>
+         <obj_property name="ObjectShortName">vector_EFT[15:0,63:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/USER_LOGIC_TB/uut/vector_incremento_de_tiempo" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">vector_incremento_de_tiempo[15:0,2:0]</obj_property>
+         <obj_property name="ObjectShortName">vector_incremento_de_tiempo[15:0,2:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/USER_LOGIC_TB/uut/vector_LFT" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">vector_LFT[15:0,63:0]</obj_property>
+         <obj_property name="ObjectShortName">vector_LFT[15:0,63:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group245" type="group">
+      <obj_property name="label">Cola de Entrada</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/USER_LOGIC_TB/uut/disparo_entrada_incrementa" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">disparo_entrada_incrementa[15:0]</obj_property>
+         <obj_property name="ObjectShortName">disparo_entrada_incrementa[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/USER_LOGIC_TB/uut/disparo_entrada_decrementa" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">disparo_entrada_decrementa[15:0]</obj_property>
+         <obj_property name="ObjectShortName">disparo_entrada_decrementa[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/USER_LOGIC_TB/uut/counter_cola_disparos_entrada" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">counter_cola_disparos_entrada[15:0,4:0]</obj_property>
+         <obj_property name="ObjectShortName">counter_cola_disparos_entrada[15:0,4:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/USER_LOGIC_TB/uut/colas_entrada_llenas" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">colas_entrada_llenas[15:0]</obj_property>
+         <obj_property name="ObjectShortName">colas_entrada_llenas[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/USER_LOGIC_TB/uut/colas_entrada_vacias" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">colas_entrada_vacias[15:0]</obj_property>
+         <obj_property name="ObjectShortName">colas_entrada_vacias[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/USER_LOGIC_TB/uut/disparos_en_espera" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">disparos_en_espera[15:0]</obj_property>
+         <obj_property name="ObjectShortName">disparos_en_espera[15:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group257" type="group">
+      <obj_property name="label">Cola de Salida</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/USER_LOGIC_TB/uut/disparo_salida_incrementa" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">disparo_salida_incrementa[15:0]</obj_property>
+         <obj_property name="ObjectShortName">disparo_salida_incrementa[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/USER_LOGIC_TB/uut/disparo_salida_decrementa" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">disparo_salida_decrementa[15:0]</obj_property>
+         <obj_property name="ObjectShortName">disparo_salida_decrementa[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/USER_LOGIC_TB/uut/counter_cola_disparos_salida" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">counter_cola_disparos_salida[15:0,4:0]</obj_property>
+         <obj_property name="ObjectShortName">counter_cola_disparos_salida[15:0,4:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/USER_LOGIC_TB/uut/colas_salida_llenas" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">colas_salida_llenas[15:0]</obj_property>
+         <obj_property name="ObjectShortName">colas_salida_llenas[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/USER_LOGIC_TB/uut/colas_salida_vacias" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">colas_salida_vacias[15:0]</obj_property>
+         <obj_property name="ObjectShortName">colas_salida_vacias[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/USER_LOGIC_TB/uut/disparos_ya_ejecutados" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">disparos_ya_ejecutados[15:0]</obj_property>
+         <obj_property name="ObjectShortName">disparos_ya_ejecutados[15:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group121" type="group">
+      <obj_property name="label">Valores Calculados</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/USER_LOGIC_TB/uut/resultado" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">resultado[15:0,15:0,7:0]</obj_property>
+         <obj_property name="ObjectShortName">resultado[15:0,15:0,7:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/USER_LOGIC_TB/uut/sign_matrix" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">sign_matrix[15:0,15:0]</obj_property>
+         <obj_property name="ObjectShortName">sign_matrix[15:0,15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/USER_LOGIC_TB/uut/inhibe_matrix" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">inhibe_matrix[15:0,15:0]</obj_property>
+         <obj_property name="ObjectShortName">inhibe_matrix[15:0,15:0]</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

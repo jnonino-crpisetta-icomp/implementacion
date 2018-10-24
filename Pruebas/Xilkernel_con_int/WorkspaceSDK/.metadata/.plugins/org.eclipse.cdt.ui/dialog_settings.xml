@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="Default C source template" key="LastUsedSourceTemplate"/>
+	<section name="completion_proposal_size">
+	</section>
+	<section name="PDOMSearchPage">
+		<item value="227191" key="searchFlags"/>
+		<item value="false" key="caseSensitive"/>
+		<list key="previousPatterns">
+			<item value="XIntc_mMasterEnable"/>
+			<item value="XTmrCtr_Initialize"/>
+			<item value="Interrupt"/>
+		</list>
+	</section>
+	<section name="CRenameRefactoringInputPage">
+		<item value="false" key="preprocessor"/>
+		<item value="3" key="scope"/>
+		<item value="false" key="macroDefinition"/>
+		<item value="false" key="comment"/>
+		<item value="true" key="references_inv"/>
+		<item value="" key="workingset"/>
+	</section>
+	<section name="org.eclipse.cdt.ui.text.hover.CMacroExpansionExploration">
+	</section>
+</section>

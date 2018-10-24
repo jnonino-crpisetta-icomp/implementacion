@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="C:\Users\Renzo\workspaceAXI\AXI_hw_platform\system.bit" key="AXI_hw_platform-bitFile"/>
+	<item value="C:\Users\Renzo\workspaceAXI\AXI_hw_platform\system_bd.bmm" key="AXI_hw_platform-bmmFile"/>
+	<item value="bootloop" key="AXI_hw_platform-microblaze_0-initElf"/>
+</section>

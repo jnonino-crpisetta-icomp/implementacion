@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="bootloop" key="Hardware_hw_platform-microblaze_0-initElf"/>
+	<item value="D:\ProyectoIntegrador\trunk\AnexoTimedIPCore\Hardware\SDK\SDK_Export\hw\system.bit" key="Hardware_hw_platform-bitFile"/>
+	<item value="D:\ProyectoIntegrador\trunk\AnexoTimedIPCore\Hardware\SDK\SDK_Export\hw\system_bd.bmm" key="Hardware_hw_platform-bmmFile"/>
+</section>
